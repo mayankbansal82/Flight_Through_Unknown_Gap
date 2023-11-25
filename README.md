@@ -1,7 +1,5 @@
 # Flight Through Unknown Gap - Drone Navigation Project
 
-![Project Banner](path/to/banner-image.jpg)
-
 ## Overview
 This project showcases the perception and control stack we developed to enable a DJI Tello drone to autonomously navigate through gaps of unknown shape and size. This project demonstrates the potential for drones to operate in complex and previously unchartered environments, possibly finding use cases in safety critical missions.
 
@@ -15,7 +13,9 @@ This project showcases the perception and control stack we developed to enable a
 - **Optical Flow Analysis:** SPyNet (Spatial Pyramid Network for Optical Flow)
 - **Programming Languages and Frameworks:** Python, PyTorch
 
+![Real Gap](Images/RealGap.jpg)
 
+*Real Gap*
 
 ![Colorized Optical Flow](Images/colored_gap1.png)
 
@@ -32,5 +32,5 @@ This project showcases the perception and control stack we developed to enable a
 ## Results
 Our system has shown exceptional performance with a 100% success rate in navigating through gaps of various shapes and sizes in different environments. 
 
-![Drone in action](Images/Video.mp4)
+![Drone in action](Images/Video.gif)
 
